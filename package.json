@@ -18,8 +18,7 @@
     "url": "https://github.com/kohashi/npm-small-pkg/issues"
   },
   "homepage": "https://github.com/kohashi/npm-small-pkg#readme",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^2.6.1"
   }
 }
