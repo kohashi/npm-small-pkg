@@ -1,0 +1,24 @@
+{
+  "name": "small-npm-pkg",
+  "version": "0.0.1",
+  "description": "small testing npm package",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "tsc",
+    "postinstall": "npm run dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kohashi/npm-small-pkg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kohashi/npm-small-pkg/issues"
+  },
+  "homepage": "https://github.com/kohashi/npm-small-pkg#readme",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
+}
